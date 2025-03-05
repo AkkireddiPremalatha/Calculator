@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    box-sizing:border-box;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    background-color: burlywood;
+}
+.a{
+    margin: 20px;
+}
+.b{
+    margin: 20px;
+    display:flex;
+    gap:20px;
+}
+.c{
+    margin: 20px;
+    display:flex;
+    gap:20px;
+}
+.d{
+    margin: 20px;
+    display:flex;
+    gap:20px;
+}
+.e{
+    margin: 20px;
+    display:flex;
+    gap:20px;
+}
+button{
+    height:50px;
+    width:50px;
+    border:1px solid black;
+}
+input{
+    background-color:aliceblue;
+    height:100px;
+    width:400px;
+    border:1px solid black;
+}
+.b button{
+    background-color:darkgrey;
+}
+.c button , .d button , .e button {
+    background-color: chocolate;
+}
+.c button:nth-child(5){
+    background-color: rgb(251, 112, 212);
+}
+.c button:nth-child(6){
+    background-color:  rgb(251, 112, 212);
+}
+.d button:nth-child(5){
+    background-color:  rgb(251, 112, 212);
+}
+.d button:nth-child(6){
+    background-color:  rgb(251, 112, 212);
+}
+.e button:nth-child(3){
+    background-color:  rgb(251, 112, 212);
+}
+.e button:nth-child(4){
+    background-color:  rgb(251, 112, 212);
+}
+.e button:nth-child(5){
+    background-color:  rgb(251, 112, 212);
+}
+.e button:nth-child(6){
+    background-color:  rgb(251, 112, 212);
+}
+button span{
+    font-size:18px;
+    font-weight:bold;
+}
